@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Citybus</string>
     <string name="dft1">pilih bus</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

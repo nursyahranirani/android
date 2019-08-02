@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:padding="16dp"
-    android:background="#26A69A"
+    android:background="@color/bgappbar"
     android:orientation="vertical">
 
     <ImageView

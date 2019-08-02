@@ -6,24 +6,26 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class Daftar1 extends AppCompatActivity {
     private ImageButton btn_info;
     private ImageButton btn_pilih;
+    TextView bus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setDisplayUseLogoEnabled(true);
-        getSupportActionBar().setLogo(R.drawable.back);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle("pilih bus");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#26A69A")));
         setContentView(R.layout.activity_daftar1);
+        bus = (TextView)findViewById(R.id.textbus);
+        Typeface typeface = Typeface.createFromAsset(getAssets(),"font/Roboto-Medium.ttf");
+        bus.setTypeface(typeface);
+
         btn_pilih = (ImageButton)findViewById(R.id.btnpilih);
         btn_pilih.setOnClickListener(new View.OnClickListener() {
             @Override

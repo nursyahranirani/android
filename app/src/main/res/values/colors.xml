@@ -4,4 +4,11 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#FDFBFB</color>
     <color name="bgcolor">#26A69A</color>
+
+    <color name="bgappbar">#0097A7</color>
+    <color name="bacgroudasli">#E1E2E1</color>
+    <color name="bgbutton">#0097A7</color>
+    <color name="bgcard">#F5F5F6</color>
+    <color name="colortext">#001700</color>
+    <color name="bgnavigasi">#56C8D8</color>
 </resources>

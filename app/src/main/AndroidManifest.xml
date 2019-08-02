@@ -12,12 +12,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login"></activity>
+        <activity android:name=".Konfirmasipembayaran"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".Pembayaran"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Detail_tiket"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity android:name=".Profil" />
-        <activity android:name=".daftaruser" />
-        <activity android:name=".daftar2" />
-        <activity android:name=".Daftar1" />
-        <activity android:name=".Home" />
+        <activity
+            android:name=".daftaruser"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".daftar2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Daftar1"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

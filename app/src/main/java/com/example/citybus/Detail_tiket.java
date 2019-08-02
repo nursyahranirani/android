@@ -7,23 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
-public class daftar2 extends AppCompatActivity {
-    private Button lanjut;
+public class Detail_tiket extends AppCompatActivity {
+    private Button lanjutbayar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_daftar2);
+        setContentView(R.layout.activity_detail_tiket);
 
-        lanjut = (Button)findViewById(R.id.btnlanjut);
-        lanjut.setOnClickListener(new View.OnClickListener() {
+        lanjutbayar = (Button)findViewById(R.id.btnlanjutbayar);
+        lanjutbayar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(daftar2.this,Detail_tiket.class);
+                Intent i = new Intent(Detail_tiket.this, Pembayaran.class);
                 startActivity(i);
             }
         });
-
     }
 }
